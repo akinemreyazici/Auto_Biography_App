@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Akın Emre YAZICI</string>
+    <string name="connect">İletişim Bilgilerim</string>
+    <string name="phone">0551 220 1080</string>
+    <string name="gmail">akinemreyazici01@gmail.com</string>
+    <string name="linkedin">linkedin.com/in/aknemreyzc</string>
+    <string name="instagram">instagram.com/aknemreyzc</string>
+    <string name="homepage">Anasayfa</string>
+    <string name="quit">Leave</string>
+    <string name="aboutMe">  İsmim Akın Emre YAZICI. 22 yaşındayım.Kocaeli Elektronik ve Haberleşme Mühendisliği 4.sınıf öğrencisiyim.Kendimi Android Developer olarak geliştirmek istiyorum.Bunun için güncel olarak Kotlin öğreniyorum.Turkcell Geleceği Yazanlar’ın “Gençlere Yatırım,Geleceğe Yazılım” Kotlin programına katılmaya hak kazandım.O program sayesinde bu biyografi uygulamasını geliştirebiliyorum.Hayalim ilerde kendi girişimim ile birlikte insanlara yardımcı olabilecek bir mobil uygulama geliştirmek.Hobilerime gelecek olursam raketle oynanan çoğu sporu oynamayı çok severim(Masa Tenisi,Tenis vb).Basketbolda NBA ligini takip etmeyi severim ve diğer branşlarda Fenerbahçeyi destekliyorum.
+    </string>
+</resources>
