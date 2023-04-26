@@ -1,5 +1,4 @@
 # my_biography_app
-This application describes my biography.
 
 This application describes my biography.
 
