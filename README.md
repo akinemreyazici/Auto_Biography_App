@@ -1,17 +1,21 @@
 # my_biography_app
 This application describes my biography.
 
+This application describes my biography.
+
 While developing this application, I learned and applied the following:
 
-  -Adding URLs to my application using Glide library.\n
-  -Creating my own CustomArrayAdapter of ArrayAdapter type for my ListView.\n
-  -Enabling transitions between activities through buttons (intent).\n
-  -Allowing the user to exit the application and displaying an AlertDialog pop-up using OptionsMenu.\n
-  -Displaying my own GitHub account in the mobile application using WebView.
-  
-  
+*Adding URLs to my application using Glide library.
+*Creating my own CustomArrayAdapter of ArrayAdapter type for my ListView.
+*Enabling transitions between activities through buttons (intent).
+*Allowing the user to exit the application and displaying an AlertDialog pop-up using OptionsMenu.
+*Displaying my own GitHub account in the mobile application using WebView.
 
 
+
+
+  
+ 
 
 <img width="380" alt="biograpy_homepage" src="https://user-images.githubusercontent.com/116732291/234636803-0a1601a1-3675-4cf7-90f9-8401e746584c.png">
 <img width="380" alt="biograpy_aboutme" src="https://user-images.githubusercontent.com/116732291/234636821-2325d13d-0e7d-44d2-9ba6-fd1f06ff0a91.png">
