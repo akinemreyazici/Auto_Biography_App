@@ -1,18 +1,18 @@
 # my_biography_app
 
-##This application describes my biography.
+## This application describes my biography.
 
-###While developing this application, I learned and applied the following:
+### While developing this application, I learned and applied the following:
 
--Adding URLs to my application using Glide library. 
+- Adding URLs to my application using Glide library. 
 
--Creating my own CustomArrayAdapter of ArrayAdapter type for my ListView. 
+- Creating my own CustomArrayAdapter of ArrayAdapter type for my ListView. 
 
--Enabling transitions between activities through buttons (intent). 
+- Enabling transitions between activities through buttons (intent). 
 
--Allowing the user to exit the application and displaying an AlertDialog pop-up using OptionsMenu. 
+- Allowing the user to exit the application and displaying an AlertDialog pop-up using OptionsMenu. 
 
--Displaying my own GitHub account in the mobile application using WebView. 
+- Displaying my own GitHub account in the mobile application using WebView. 
 
 
 
