@@ -17,10 +17,10 @@
         android:backgroundTint="#949c84"
         android:fontFamily="@font/alfa_slab_one"
         android:text="İletişim"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="@+id/imgViewContacts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imgViewContacts"
         app:layout_constraintTop_toBottomOf="@+id/btnGallery" />
 
     <Button
@@ -33,29 +33,29 @@
         android:backgroundTint="#0d2636"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Github"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintBottom_toBottomOf="@+id/imgViewGithub"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/imgViewGithub"
         app:layout_constraintTop_toBottomOf="@+id/btnConnect" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgViewContacts"
         android:layout_width="88dp"
         android:layout_height="75dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewGallery"
         app:srcCompat="@drawable/contact_us_icon" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgViewGallery"
         android:layout_width="88dp"
         android:layout_height="75dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewAboutMe"
         app:srcCompat="@drawable/gallery_icon" />
 
     <Button
@@ -68,13 +68,13 @@
         android:backgroundTint="#5abc52"
         android:fontFamily="@font/alfa_slab_one"
         android:text="GALERİ"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/imgViewGallery"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imgViewGallery"
         app:layout_constraintTop_toBottomOf="@+id/btnAboutMe" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgViewHomepage"
         android:layout_width="88dp"
         android:layout_height="75dp"
         android:layout_marginStart="50dp"
@@ -93,9 +93,9 @@
         android:backgroundTint="#367abb"
         android:fontFamily="@font/alfa_slab_one"
         android:text="HAKKIMDA"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintBottom_toBottomOf="@+id/imgViewAboutMe"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imgViewAboutMe"
         app:layout_constraintTop_toBottomOf="@+id/btnHomePage" />
 
     <Button
@@ -108,29 +108,29 @@
         android:backgroundTint="#852e6c"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Anasayfa"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/imgViewHomepage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imgViewHomepage"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imgViewAboutMe"
         android:layout_width="88dp"
         android:layout_height="75dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewHomepage"
         app:srcCompat="@drawable/about_me_icon" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imgViewGithub"
         android:layout_width="88dp"
         android:layout_height="75dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewContacts"
         app:srcCompat="@drawable/github_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@ import android.webkit.WebView
 import androidx.appcompat.app.AlertDialog
 
 class WebViewActivity : AppCompatActivity() {
-    lateinit var webViewGithub : WebView
+    lateinit var webViewGithub: WebView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
@@ -23,17 +23,16 @@ class WebViewActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_2,menu)
+        menuInflater.inflate(R.menu.menu_2, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId)
-        {
+        when (item.itemId) {
             R.id.leave -> alertDialog()
 
             R.id.homepage -> {
-                var intent = Intent(this,MainActivity::class.java)
+                var intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }
@@ -41,8 +40,7 @@ class WebViewActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun alertDialog()
-    {
+    fun alertDialog() {
         var alert = AlertDialog.Builder(this)
         alert.setMessage("Uygulamayı kapatmak istediğinizden emin misiniz?")
         alert.setCancelable(false)
@@ -50,7 +48,7 @@ class WebViewActivity : AppCompatActivity() {
             finishAffinity() // Tüm uygulamaları ve etkinlikleri kapatan kod
         })
 
-        alert.setNegativeButton("Hayır", DialogInterface.OnClickListener { dialogInterface, i ->  })
+        alert.setNegativeButton("Hayır", DialogInterface.OnClickListener { dialogInterface, i -> })
 
         alert.show()
     }

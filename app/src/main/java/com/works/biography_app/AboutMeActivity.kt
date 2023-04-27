@@ -8,8 +8,8 @@ import android.widget.ImageView
 import com.bumptech.glide.Glide
 
 class AboutMeActivity : AppCompatActivity() {
-    lateinit var imgAboutMe : ImageView
-    lateinit var imgBtnBackwardsAboutMe : ImageButton
+    lateinit var imgAboutMe: ImageView
+    lateinit var imgBtnBackwardsAboutMe: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_me)
@@ -21,7 +21,7 @@ class AboutMeActivity : AppCompatActivity() {
         Glide.with(this).load(imgAboutMeUrl).into(imgAboutMe)
 
         imgBtnBackwardsAboutMe.setOnClickListener {
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }

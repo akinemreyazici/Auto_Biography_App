@@ -12,7 +12,7 @@ import com.works.biography_app.adapter.GalleryCustomAdapter
 import com.works.biography_app.services.GalleryService
 
 class GalleryActivity : AppCompatActivity() {
-    lateinit var galleryListView : ListView
+    lateinit var galleryListView: ListView
 
     val galleryService = GalleryService()
 
@@ -21,22 +21,21 @@ class GalleryActivity : AppCompatActivity() {
         setContentView(R.layout.activity_gallery)
 
         galleryListView = findViewById(R.id.galleryListView)
-        val customAdapter = GalleryCustomAdapter(this,galleryService.GalleryResult())
+        val customAdapter = GalleryCustomAdapter(this, galleryService.GalleryResult())
         galleryListView.adapter = customAdapter
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_2,menu)
+        menuInflater.inflate(R.menu.menu_2, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId)
-        {
+        when (item.itemId) {
             R.id.leave -> alertDialog()
 
             R.id.homepage -> {
-                var intent = Intent(this,MainActivity::class.java)
+                var intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }
@@ -44,8 +43,7 @@ class GalleryActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun alertDialog()
-    {
+    fun alertDialog() {
         var alert = AlertDialog.Builder(this)
         alert.setMessage("Uygulamayı kapatmak istediğinizden emin misiniz?")
         alert.setCancelable(false)
@@ -53,7 +51,7 @@ class GalleryActivity : AppCompatActivity() {
             finishAffinity() // Tüm uygulamaları ve etkinlikleri kapatan kod
         })
 
-        alert.setNegativeButton("Hayır", DialogInterface.OnClickListener { dialogInterface, i ->  })
+        alert.setNegativeButton("Hayır", DialogInterface.OnClickListener { dialogInterface, i -> })
 
         alert.show()
     }

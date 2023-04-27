@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 
 class ConnectActivity : AppCompatActivity() {
-    lateinit var imgBtnBackwards : ImageButton
+    lateinit var imgBtnBackwards: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +15,7 @@ class ConnectActivity : AppCompatActivity() {
         imgBtnBackwards = findViewById(R.id.imgBtnBackwardsConnect)
 
         imgBtnBackwards.setOnClickListener {
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish() // Geri butonu koydum  diye her intent sonrası öncekini kapatıyorum
         }
